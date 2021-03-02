@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Kumbh Sans;
+    src: url(/resources/css/Kumbh_Sans/KumbhSans-Regular.ttf);
+}
+body {
+    height: 100vh;
+    background-color:  hsl(185, 75%, 39%);
+    background-image: url(/resources/css/images/bg-pattern-top.svg), url(/resources/css/images/bg-pattern-bottom.svg);
+    background-position: -63% 370%, 135% -315%;
+    background-repeat: no-repeat;
+    font-family: Kumbh Sans;
+}
+#main {
+    margin: 150px auto 150px auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+.empty {
+    height: 150px;
+    width: 100%;
+    background-image: url(./images/bg-pattern-card.svg);
+    border-radius: 10px 10px 0px 0px;
+}
+.content {
+    height: 250px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+img {
+    border-radius: 50%;
+}
+.victor {
+    margin: -50px auto 0px 150px;
+    position: absolute;
+    font-weight: 700;
+}
+.age, .london {
+    color: hsl(0, 0%, 59%);
+    
+}
+.london {
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    font-weight: 400;
+}
+.bottom {
+    padding-top: 140px;
+    
+}
+ul {
+    border-top: 1px solid;
+    border-width: 100%;
+    list-style-type: none;
+    display: inline-flex;
+    color: hsl(0, 0%, 59%);
+}
+li {
+    margin-right: 68px;
+    color:#000;
+    font-weight: 700;
+    
+}
+li .attr, .age {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
