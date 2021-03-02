@@ -1,11 +1,11 @@
 @font-face {
     font-family: Kumbh Sans;
-    src: url(./resources/css/Kumbh_Sans/KumbhSans-Regular.ttf);
+    src: url(../resources/css/Kumbh_Sans/KumbhSans-Regular.ttf);
 }
 body {
     height: 100vh;
     background-color:  hsl(185, 75%, 39%);
-    background-image: url(./resources/css/images/bg-pattern-top.svg), url(./resources/css/images/bg-pattern-bottom.svg);
+    background-image: url(../resources/css/images/bg-pattern-top.svg), url(../resources/css/images/bg-pattern-bottom.svg);
     background-position: -63% 370%, 135% -315%;
     background-repeat: no-repeat;
     font-family: Kumbh Sans;
